@@ -2,7 +2,7 @@ import React from 'react';
 import './Home.css';
 import linkedinIcon from '../Images/linkedIn.png';
 import githubIcon from '../Images/download (1).jpeg';
-import profile from '../Images/IMG_17j6sp.jpg';
+import profile from '../Images/IMG-20240803-WA0006.jpg';
 import python from '../Images/python.jpeg';
 import javascript from '../Images/js.jpeg';
 import dbImage from '../Images/db.jpeg';
