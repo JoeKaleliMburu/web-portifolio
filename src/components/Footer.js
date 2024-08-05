@@ -24,7 +24,7 @@ function Footer() {
             <img src={discord} alt='instagram'/>  
           </a>    
         </div>
-        <div className="contact-info">
+        <div className="contact">
           <p>Email: joekaleli9@gmail.com</p>
           <p>Phone: +2547 0385 5490</p>
         </div>

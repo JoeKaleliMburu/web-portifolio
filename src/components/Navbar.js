@@ -11,7 +11,7 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <div className="navbar for Joe-dev">
+      <div className="navbar for Joe-Dev">
         <h1 className="bg-primary- navar-item Darker Grotesque-bold">
           JOE -DEV
         </h1>
