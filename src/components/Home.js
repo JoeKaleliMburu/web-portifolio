@@ -1,7 +1,5 @@
 import React from 'react';
 import './Home.css';
-import linkedinIcon from '../Images/linkedIn.png';
-import githubIcon from '../Images/download (1).jpeg';
 import profile from '../Images/IMG-20240803-WA0006.jpg';
 import python from '../Images/python.jpeg';
 import javascript from '../Images/js.jpeg';
@@ -14,25 +12,13 @@ function Home() {
     <div>
       <div className='container'>
         <div className='left-nav'>
+          <div className='profile'><img alt='profile' src={profile} /></div>
           <h1>Full Stack Software Engineer 👏</h1>
           <h4>
             Hi, I'm Joe Mburu. A passionate full-Stack software developer based in Nairobi, Kenya.
           </h4>
-          <div className='icons'>
-            <div className='linkedIn'>
-              <a href='https://www.linkedin.com/in/your-linkedin-profile' target='_blank' rel='noopener noreferrer'>
-                <img alt='LinkedIn' src={githubIcon} />
-              </a>
-            </div>
-            <div className='Github'>
-              <a href='https://github.com/your-github-profile' target='_blank' rel='noopener noreferrer'>
-                <img alt='Github' src={linkedinIcon} />
-              </a>
-            </div>
-          </div>
-          <div className='right-nav'>
-            <img alt='profile' src={profile} />
-          </div>
+        
+          
           <div className='tech-stack'>
             <img src={python} alt='Python'></img>
             <img src={javascript} alt='JavaScript'></img>
