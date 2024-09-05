@@ -1,0 +1,51 @@
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 70px 0px 0px 30px;
+  }
+  
+  .profile-image {
+    flex-shrink: 0;
+  }
+  
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-right: 20px;
+  }
+  
+  .profile-description {
+    max-width: 600px;
+  }
+  
+  .profile-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .profile-title {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .social-icons a {
+    color: #333;
+    font-size: 24px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #1a73e8;
+  }
+  

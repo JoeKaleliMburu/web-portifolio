@@ -1,39 +1,26 @@
 import React from 'react';
 import './Footer.css';
-import twitterIcon from '../Images/linkedIn.png';
-import discord from '../Images/discord.jpeg';
-import instagram from '../Images/insta.jpeg';
-import slack from '../Images/slack.png';
 
-function Footer() {
+const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-content">
+        <p>© 2024 Rev Ruth Muita| All Rights Reserved</p>
+        <p>Contact: <a href="mailto:jane.doe@example.com">joekaleli9@gmail.com</a></p>
         <div className="social-media">
-          
-          <a href="https://github.com/your-github-profile" target="_blank" rel="noopener noreferrer">
-            <img src={slack} alt="GitHub" />
+          <a href="https://www.facebook.com/fatherjane" target="_blank" rel="noopener noreferrer">
+            <img src="/images/facebook-icon.png" alt="Facebook" />
           </a>
-          <a href="https://twitter.com/your-twitter-profile" target="_blank" rel="noopener noreferrer">
-            <img src={twitterIcon} alt="Twitter" />
+          <a href="https://www.twitter.com/fatherjane" target="_blank" rel="noopener noreferrer">
+            <img src="/images/twitter-icon.png" alt="Twitter" />
           </a>
-          <a href="#" target="" rel="">
-            <img src={instagram} alt='instagram'/>  
-          </a> 
-           <a href="#" target="" rel="">
-            <img src={discord} alt='instagram'/>  
-          </a>    
-        </div>
-        <div className="contact">
-          <p>Email: joekaleli9@gmail.com</p>
-          <p>Phone: +2547 0385 5490</p>
-        </div>
-        <div className="footer-bottom">
-          <p>&copy; {new Date().getFullYear()} Joe Mburu. All rights reserved.</p>
+          <a href="https://www.instagram.com/fatherjane" target="_blank" rel="noopener noreferrer">
+            <img src="/images/instagram-icon.png" alt="Instagram" />
+          </a>
         </div>
       </div>
     </footer>
   );
-}
+};
 
 export default Footer;

@@ -1,0 +1,41 @@
+.ministry-section {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .ministry-description {
+    margin-bottom: 20px;
+    text-align: left;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .ministry-description p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .ministry-photos {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .image-item img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  a {
+    color: #1a73e8;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
